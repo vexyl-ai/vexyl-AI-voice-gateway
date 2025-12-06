@@ -40,7 +40,7 @@ docker run -d \
   -e LLM_PROVIDER=sarvam \
   -e TTS_PROVIDER=sarvam \
   -e STT_PROVIDER=auto \
-  vexyl/voice-gateway:latest
+  vexyl/vexyl-voice-gateway:latest
 ```
 
 ### Verify Deployment
