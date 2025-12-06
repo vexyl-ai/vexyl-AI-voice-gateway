@@ -2,6 +2,11 @@
 
 Comprehensive documentation for deploying, configuring, operating, and optimizing VEXYL AI Voice Gateway.
 
+
+[![GitHub](https://img.shields.io/badge/GitHub-vexyl--AI--voice--gateway-blue?logo=github)](https://github.com/vexyl-ai/vexyl-AI-voice-gateway)
+[![Twitter](https://img.shields.io/badge/Twitter-@VexylAi-1DA1F2?logo=x)](https://x.com/VexylAi)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-5865F2?logo=discord&logoColor=white)](https://discord.gg/TcZYmtPM)
+[![Website](https://img.shields.io/badge/Website-vexyl.ai-green)](https://vexyl.ai/)
 ## Table of Contents
 
 ### Getting Started
@@ -28,7 +33,7 @@ Comprehensive documentation for deploying, configuring, operating, and optimizin
 ## Quick Start
 
 ### Deploy with Docker
-
+[Docker Hub](https://hub.docker.com/r/vexyl/vexyl-voice-gateway)
 ```bash
 docker run -d \
   --name vexyl-gateway \
