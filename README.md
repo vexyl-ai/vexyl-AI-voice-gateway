@@ -9,6 +9,12 @@
 [![Website](https://img.shields.io/badge/Website-vexyl.ai-green)](https://vexyl.ai/)
 
 ---
+## SDK 
+
+[![NPM](https://img.shields.io/npm/v/@vexyl.ai/aivg-sdk)](https://www.npmjs.com/package/@vexyl.ai/aivg-sdk)
+
+[![Demo](https://img.shields.io/badge/demo-try%20it%20now-brightgreen?style=for-the-badge)](https://ai.vexyl.info/demo.html)
+
 
 ## What is Vexyl AI Voice Gateway?
 
