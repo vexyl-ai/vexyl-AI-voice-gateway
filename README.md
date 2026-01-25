@@ -331,6 +331,8 @@ TTS_CACHE_TTL=86400        # 24 hours
 | **Sarvam AI** | Indian language understanding | API |
 | **Custom** | Your own API/logic | REST/Webhook |
 
+See [Custom LLM Integration Guide](docs/CUSTOM_LLM_INTEGRATION.md) for implementation details.
+
 ---
 
 ## Advanced Features
