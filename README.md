@@ -137,7 +137,14 @@ curl -X POST https://your-gateway:8080/v1/realtime
 - Asterisk 18+ with AudioSocket support (for telephony)
 - API keys for at least one provider (Sarvam, OpenAI, Deepgram, etc.)
 
-### 1. Deploy with Docker (Fastest)
+### 1. Quick Install (Script)
+The fastest way to install on Linux/Debian/Ubuntu.
+
+```bash
+curl -fsSL https://vexyl.ai/downloads/install_gateway.sh | sudo bash
+```
+
+### 2. Deploy with Docker (Recommended for Containerized)
 
 ```bash
 docker run -d \

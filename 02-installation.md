@@ -6,11 +6,29 @@ This guide covers deploying VEXYL AI Voice Gateway using Docker, standalone bina
 
 | Method | Best For | Complexity |
 |--------|----------|------------|
+| **Quick Install** | Linux servers (Ubuntu/Debian) | Very Low |
 | **Docker** | Most deployments, easy updates | Low |
 | **Docker Compose** | Single-server with Redis | Low |
 | **Kubernetes** | High availability, auto-scaling | Medium |
 | **Standalone Binary** | Minimal footprint, air-gapped systems | Low |
 | **PM2** | Binary with process management | Low |
+
+---
+
+## Quick Install (Recommended for Linux)
+
+The fastest way to get Vexyl Gateway running on Ubuntu or Debian is using our automated installer script.
+
+```bash
+curl -fsSL https://vexyl.ai/downloads/install_gateway.sh | sudo bash
+```
+
+**What this script does:**
+1. Installs system dependencies (Node.js v20, PM2, unzip).
+2. Downloads and installs the Vexyl Gateway binary to `/opt/vexyl`.
+3. Configures the system service (PM2) to start on boot.
+4. Generates a default configuration file.
+
 
 ---
 
