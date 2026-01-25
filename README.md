@@ -16,6 +16,14 @@
 [![Demo](https://img.shields.io/badge/demo-try%20it%20now-brightgreen?style=for-the-badge)](https://ai.vexyl.info/demo.html)
 
 
+## Quick Install
+
+Get up and running in seconds on Linux/Debian/Ubuntu servers:
+
+```bash
+curl -fsSL https://vexyl.ai/downloads/install_gateway.sh | sudo bash
+```
+
 ## What is Vexyl AI Voice Gateway?
 
 Vexyl is an ** production-ready voice AI gateway** that enables real-time conversational AI for telephone systems, contact centers, and web applications. It acts as an intelligent middleware between your telephony infrastructure (Asterisk, FreeSWITCH, SIP) and modern AI services (OpenAI, Gemini, Sarvam, Deepgram).
@@ -137,14 +145,7 @@ curl -X POST https://your-gateway:8080/v1/realtime
 - Asterisk 18+ with AudioSocket support (for telephony)
 - API keys for at least one provider (Sarvam, OpenAI, Deepgram, etc.)
 
-### 1. Quick Install (Script)
-The fastest way to install on Linux/Debian/Ubuntu.
-
-```bash
-curl -fsSL https://vexyl.ai/downloads/install_gateway.sh | sudo bash
-```
-
-### 2. Deploy with Docker (Recommended for Containerized)
+### 1. Deploy with Docker (Recommended for Containerized)
 
 ```bash
 docker run -d \
