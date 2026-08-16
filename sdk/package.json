@@ -1,0 +1,61 @@
+{
+  "name": "@vexyl.ai/aivg-sdk",
+  "version": "1.0.11",
+  "description": "AI Voice Gateway Browser SDK - WebSocket-based voice assistant for browsers",
+  "main": "lib/aivg-sdk.js",
+  "module": "lib/aivg-sdk.esm.js",
+  "browser": "lib/aivg-sdk.min.js",
+  "types": "lib/aivg-sdk.d.ts",
+  "files": [
+    "lib/",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vexyl-ai/vexyl-AI-voice-gateway.git",
+    "directory": "sdk"
+  },
+  "keywords": [
+    "voice",
+    "ai",
+    "websocket",
+    "speech",
+    "audio",
+    "browser",
+    "asterisk",
+    "voip",
+    "stt",
+    "tts",
+    "speech-to-text",
+    "text-to-speech",
+    "voice-assistant"
+  ],
+  "author": "VEXYL",
+  "license": "MIT",
+  "homepage": "https://github.com/vexyl-ai/vexyl-AI-voice-gateway#readme",
+  "bugs": {
+    "url": "https://github.com/vexyl-ai/vexyl-AI-voice-gateway/issues"
+  },
+  "devDependencies": {
+    "terser": "^5.31.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./lib/aivg-sdk.d.ts",
+      "import": "./lib/aivg-sdk.mjs",
+      "require": "./lib/aivg-sdk.js",
+      "default": "./lib/aivg-sdk.js"
+    },
+    "./min": "./lib/aivg-sdk.min.js",
+    "./package.json": "./package.json"
+  }
+}
